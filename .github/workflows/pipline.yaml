@@ -1,4 +1,5 @@
 Name: Selenium IDE CI
+
 on:
   push:
 	branches:
@@ -27,7 +28,6 @@ jobs:
 		  run: dotnet build --no-restore
 			
 		- name: Run tests
-		  env:	
 		  run: dotnet test --verbosity normal
 	
 
