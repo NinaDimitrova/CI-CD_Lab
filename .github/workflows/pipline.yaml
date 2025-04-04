@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on:
 
-    step:
+    steps:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Setup dotNet
