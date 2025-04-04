@@ -1,7 +1,8 @@
 Name: Selenium IDE CI
 on:
   push:
-    - main
+	branches:
+      - main
 jobs:
   build:
     runs-on:  ubuntu-latest
